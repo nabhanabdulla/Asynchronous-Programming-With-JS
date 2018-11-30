@@ -1,0 +1,55 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="library.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <title>Product Catalog</title>
+    </head>
+
+    <body>
+        <div id="div-search-id" class="container" style="margin-bottom:20px; padding-top:20px;">
+            <h3>Search Product By Id</h3>
+            <input type="text" id="input-search-id" class="form-control" style="width:25%;display:inline;">
+            <button id="btn-search-id" class="btn">Search Product</button>
+        </div>
+
+        <div id="div-examined-product"  class="container" style="margin-bottom:20px">
+            <h3>Examined Product</h3>
+            <ul id="list-examined-product" class="list-group">
+                <li class="list-group-item">Product Id: <span></span></li>
+                <li class="list-group-item">Price: <span></span></li>
+                <li class="list-group-item">Type: <span></span></li>
+            </ul>
+        </div>
+
+        <div  class="container" style="margin-bottom:20px">
+            <h3>List of Similar Products</h3>
+            <table id="table-similar-products" class="table">
+            <thead>
+                    <th>ProductId</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Examine</th>
+                </thead>
+            </table>
+        </div>
+
+        <div  class="container" style="margin-bottom:20px">
+            <h3>List of All Products</h3>
+            <table id="table-all-products" class="table">
+                <tr>
+                    <th>ProductId</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Examine</th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="productCatalog.js"></script>
+        
+    </body>
+</html>
