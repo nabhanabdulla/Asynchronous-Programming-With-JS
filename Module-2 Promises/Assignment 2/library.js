@@ -22,7 +22,7 @@
             productsByPrice = new Promise(function(resolve, reject) {
                 let products = [];
 
-                if(!isFinite(price)) {
+                if(!isFinite(price) || price < 0) {
                     reject("Invalid price: " + price);
                 }
                 else {
@@ -55,7 +55,7 @@
             let productsByType = new Promise(function(resolve, reject) {
                 let products = [];
                 let possibleTypes = ['Book', 'Clothing', 'Electronics', 'Food'];
-                let pattern = new RegExp(type, "i");
+                let pattern = new RegExp('^' + type, "i");
                 let validType;
 
                 possibleTypes.forEach(function(possibleType) {

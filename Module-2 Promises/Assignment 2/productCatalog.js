@@ -93,6 +93,7 @@ function displayByPrice(price) {
         document.body.scrollTop = 560;
     }).catch(function(error) {
         console.log("Error displaying by price: " + error);
+        alert("Invalid price");
     });
 }
 
@@ -105,6 +106,7 @@ function displayByType(type) {
         document.body.scrollTop = 560;
     }).catch(function(error) {
         console.log("Error displaying by type: " + type);
+        alert("Invalid type");
     });
 }
 
@@ -119,11 +121,13 @@ function displayById(id) {
 
     }).then(function(res) {
         let similarArray = getIntersection(res[1], res[2], res[0].id);
-
+        
+        similarArray = sortProductsByPrice(similarArray);
         showExaminedProduct(res[0]);
         populateTable('table-similar-products', similarArray);
         document.body.scrollTop = 360;
     }).catch(function(error) {
+        alert("Invalid id");
         console.log("Error: " + error);
     });
 }   
