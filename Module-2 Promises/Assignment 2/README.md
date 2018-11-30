@@ -17,3 +17,8 @@ Product Catalog application built using JavaScript involving Promises for Assign
 * On clicking a button, the window is *scrolled* to the appropriate location where result is displayed. This is particularly useful when using "examine" button on products lower in the "List of All Products".
 * Type enter button after inserting search key to trigger the search instead of clicking the corresponding button.
 * Used bootstrap to introduce basic styling.
+
+## Functionalities used
+* Promises for searching the catalog asynchronously
+* Event listeners for catching events like button click.
+* Regular expression for matching search terms instead of hardcoding.
