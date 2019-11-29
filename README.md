@@ -14,12 +14,12 @@ The course is split into four modules and covers the following asynchronous conc
 ### Module 1: Asynchronous Fundamentals
 
 * Tutorial Lab: Memory Match
-* Assignment: Stop Watch
+* Assignment: Stop Watch - Try it out [here](http://athena.nitc.ac.in/~nabhan_b160502cs/projects/Asynchronous-Programming-With-JS/Module-1/Assignment%201/)
 
 ### Module 2: Promises
 
 * Tutorial Lab: Product Catalog
-* Assignment: Advanced Product Catalog
+* Assignment: Advanced Product Catalog - Try it out [here](http://athena.nitc.ac.in/~nabhan_b160502cs/projects/Asynchronous-Programming-With-JS/Module-2%20Promises/Assignment%202/productCatalog.html)
 
 ### Module 3: Fetch API
 
