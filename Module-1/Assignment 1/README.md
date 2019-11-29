@@ -1,5 +1,5 @@
 # Stopwatch
-Stopwatch built using JavaScript for Assignment 1 of EdX Asynchronous Programming Course.
+Stopwatch built using JavaScript for Assignment 1 of EdX Asynchronous Programming Course. Try out the application [here](http://athena.nitc.ac.in/~nabhan_b160502cs/projects/Asynchronous-Programming-With-JS/Module-1/Assignment%201/)
 
 ## Features
 * Start and stop the timer by pressing the "Start/Stop" button.
