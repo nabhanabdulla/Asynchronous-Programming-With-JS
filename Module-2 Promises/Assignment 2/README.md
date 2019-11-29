@@ -1,5 +1,5 @@
 # Product Catalog
-Product Catalog application built using JavaScript involving Promises for Assignment 2 of EdX Asynchronous Programming Course.
+Product Catalog application built using JavaScript involving Promises for Assignment 2 of EdX Asynchronous Programming Course. Try out the application [here](http://athena.nitc.ac.in/~nabhan_b160502cs/projects/Asynchronous-Programming-With-JS/Module-2%20Promises/Assignment%202/productCatalog.html)
 
 ## Features
 * Populate the **Similar Products List** with products of the same type by pressing the "Search Type" button and entering a valid product type in the corresponding input field.
